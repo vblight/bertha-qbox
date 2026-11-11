@@ -1,4 +1,4 @@
--- Merge missing entries into ox_inventory/data/items.lua (inside the return table).
+-- Merge any missing entries into ox_inventory/data/items.lua (inside the return table).
 -- Do not duplicate names already provided by your server. Weights are in grams.
 ['used_tyre'] = { label='Used Tire', weight=5000, stack=true, close=true, description='A used tire ready for recycling.' },
 ['rubber'] = { label='Recycled Rubber', weight=500, stack=true, close=true },

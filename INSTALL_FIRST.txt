@@ -1,0 +1,19 @@
+BIG BERTHA RECYCLING + BOXVILLE INTEGRATION TEST
+
+Copy BOTH folders into your FiveM resources directory:
+  bertha_boxville/
+  bertha_recycling/
+
+server.cfg order:
+  ensure qb-core
+  ensure qb-inventory
+  ensure qb-target
+  ensure bertha_boxville
+  ensure bertha_recycling
+
+Spawn name: rboxville
+Secondary original variant: boxvilleretro2
+
+NOTE: This is a first integration build, not yet verified in-game.
+Test rboxville spawn, livery, rear doors, 24-tire alignment, and interactions.
+The vehicle uses the supplied FiveM add-on model/texture assets.

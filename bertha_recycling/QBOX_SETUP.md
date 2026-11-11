@@ -45,4 +45,4 @@ Add missing entries from `OX_ITEMS.lua` to `ox_inventory/data/items.lua` (inside
 6. **Security:** This preserves the prototype's existing client-supplied skip coordinates. Before public release, validate that the searched entity is a configured skip model server-side, and consider a stash access hook to limit item deposits.
 7. **Legacy state:** The machine and vehicle cargo save files are separate from ox_inventory stash storage. Back them up before migrating existing data.
 
-This build has been inspected and packaged but **not run on a live Qbox server**.
+This build has been inspected and packaged but **not run on a live Qbox server**. GitHub has not been changed by this conversion.
